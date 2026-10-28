@@ -9,10 +9,10 @@ Needs a 256-colour terminal and an `awk` that splits `FS = ""` per character (`g
 ## Install
 
 ```sh
-$ cp lolcat.awk ~/.local/bin/lolcat && chmod 755 ~/.local/bin/lolcat
+$ curl -L -o ~/.local/bin/lolcat.awk https://raw.githubusercontent.com/dazzywi/lolcat.awk/refs/heads/main/lolcat.awk && chmod 755 ~/.local/bin/lolcat.awk
 ```
 
-> make sure that `~/.local/bin/lolcat` is in `$PATH`
+> make sure that `$HOME/.local/bin` is in `$PATH`
 
 ## Usage
 
