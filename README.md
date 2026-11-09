@@ -1,6 +1,6 @@
 # lolcat.awk
 
-![](preview.jpg)
+![](assets/preview.jpg)
 
 lolcat colors terminal text like a rainbow. Runs on any box that already has `awk`.
 
